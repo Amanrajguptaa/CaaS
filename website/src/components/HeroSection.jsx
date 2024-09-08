@@ -2,27 +2,32 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="py-5 text-white">
-      <section className="mx-10  rounded-[50px]  bg-[#0038c7] relative h-screen">
-        {/* <div className='relative'><img src="/grid.png" alt="" /></div> */}
+    <div className="text-white w-screen py-5">
+      <section className="mx-5 md:mx-10 pb-52 md:pb-0 rounded-t-[30px] md:rounded-[50px] bg-[#0038c7] relative">
+        <div className="relative">
+          <img
+            className="rounded-[30px] md:rounded-[50px] border-none w-full"
+            src="/gridd.png"
+            alt="background"
+          />
+        </div>
 
-        <div className="absolute inset-0 flex flex-col justify-center items-center ">
+        <div className="absolute inset-0 flex flex-col items-center top-10 sm:top-16 md:top-24 justify-start text-center">
           <div className="flex flex-col justify-center items-center">
-            <div className="text-[170px] font-brasika">creativity</div>
-            <div className="text-[105px] -mt-24 font-brasika">
+            <div className="text-[70px] sm:text-[120px] md:text-[120px] lg:text-[170px] font-brasika">
+              creativity
+            </div>
+            <div className="text-[40px] sm:text-[80px] md:text-[70px] lg:text-[105px] -mt-9 sm:-mt-16 md:-mt-10 lg:-mt-24 font-brasika">
               as a <span className="text-[#a7ff00]">service</span>
             </div>
           </div>
-          <div>
-            {/* <div>
-              <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#0047BB" />
-  <path d="M20 40 C 40 10, 65 10, 80 40 S 120 80, 40 90" stroke="#00FF00" stroke-width="5" fill="none"/>
-</svg>
 
-            </div> */}
-            <div>
-              <div className="bg-[#a7ff00] rounded-3xl px-12 py-2 text-black font-bold text-lg border-[3px] border-white">Book a Demo</div>
+          <div className="mt-5  flex justify-center items-center ">
+            <div className="-mt-16">
+              <img src="/arrow.png" alt="arrow" className="w-[50px] sm:w-[80px] md:w-[50px] lg:w-[60px]" />
+            </div>
+            <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black font-bold text-2xl md:text-2xl lg:text-3xl border-[3px] border-white">
+              Book a Demo
             </div>
           </div>
         </div>
@@ -32,5 +37,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-
-// #031d8c
