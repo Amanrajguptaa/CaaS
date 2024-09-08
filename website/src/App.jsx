@@ -14,6 +14,7 @@ import Experience from './components/Experience.jsx'
 import About from './components/About.jsx'
 import Footer from './components/Footer.jsx'
 import Ppt from './components/Ppt.jsx'
+import Navbar from './components/Navbar.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,9 +32,6 @@ function App() {
       <Ppt/>
       <Experience/>
       <About/>
-      <Footer/>
-      
-      {/* <Presentation/> */}
     </>
   )
 }

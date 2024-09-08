@@ -2,7 +2,7 @@ import React from "react";
 
 function PhoneSection() {
   return (
-    <div className="h-auto -mt-28 sm:-mt-0">
+    <div id="reels" className="h-auto -mt-28 sm:-mt-0">
       <div className="text-white h-auto">
         <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className="relative">

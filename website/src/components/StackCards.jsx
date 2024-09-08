@@ -3,7 +3,7 @@ import CardStack from "./CardStack";
 
 function StackCards() {
   return (
-    <div className='h-auto '>
+    <div id="posts" className='h-auto '>
             <div className=" text-white h-auto">
         <section className=" mx-5 md:mx-10  min-h-[380px] bg-[#0038c7] relative  ">
         <div className='relative'><img className=" min-h-[380px] border rounded-[50px]  border-none" src="/gridd.png" alt="" /></div>

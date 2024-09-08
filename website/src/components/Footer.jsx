@@ -2,19 +2,17 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className='h-auto '>
-      <div className="text-black h-auto">
-        <section className="mx-5 md:mx-10  bg-[#0038c7] relative">
-          <div className='relative'>
-            <img className="border rounded-t-lg border-none h-full w-full object-cover" src="/gridd.png" alt="" />
-          </div>
+    // <div className='h-auto '>
+    //   <div className="text-black h-auto">
+    //     <section className="mx-5 md:mx-10  bg-[#0038c7] relative">
+    //       <div className='relative'>
+    //         <img className="border rounded-t-lg border-none h-full w-full object-cover" src="/gridd.png" alt="" />
+    //       </div>
 
-          <div className="absolute inset-x-0 bottom-0">
-            <footer className="bg-white shadow-md p-6 rounded-t-lg w-full">
+    //       <div className="absolute inset-x-0 bottom-0">
+            <footer className="bg-white shadow-md p-6 rounded-t-lg w-full mt-20 sm:mt-0">
               <div className="container mx-auto flex justify-between items-start">
-                <div className="flex-shrink-0">
-                  <span className="font-bold text-2xl">Logo</span>
-                </div>
+                <img src="/webLogo.png" alt="" srcset="" />
                 <div className="flex space-x-10">
                   <div className='flex gap-5 sm:gap-20 px-10'>
                     <div>
@@ -50,10 +48,10 @@ function Footer() {
                 </div>
               </div>
             </footer>
-          </div>
-        </section>
-      </div>
-    </div>
+    //       </div>
+    //     </section>
+    //   </div>
+    // </div>
   );
 }
 

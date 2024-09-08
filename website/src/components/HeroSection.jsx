@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function HeroSection() {
   return (
-    <div className="text-white w-screen py-5">
+
+    <div id="home" className="text-white w-screen py-5 z-20">
+
       <section className="mx-5 md:mx-10 pb-52 md:pb-0 rounded-t-[30px] md:rounded-[50px] bg-[#0038c7] relative">
         <div className="relative">
           <img
@@ -12,7 +15,9 @@ function HeroSection() {
           />
         </div>
 
-        <div className="absolute inset-0 flex flex-col items-center top-10 sm:top-16 md:top-24 justify-start text-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
+        <Navbar className="w-full"/>
+
           <div className="flex flex-col justify-center items-center">
             <div className="text-[70px] sm:text-[120px] md:text-[120px] lg:text-[170px] font-brasika">
               creativity
@@ -26,9 +31,11 @@ function HeroSection() {
             <div className="-mt-16">
               <img src="/arrow.png" alt="arrow" className="w-[50px] sm:w-[80px] md:w-[50px] lg:w-[60px]" />
             </div>
+            <a href="#contact">
             <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black font-bold text-2xl md:text-2xl lg:text-3xl border-[3px] border-white">
-              Book a Demo
+            Book a Demo
             </div>
+            </a>
           </div>
         </div>
       </section>

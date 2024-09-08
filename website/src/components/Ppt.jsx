@@ -2,7 +2,7 @@ import React from 'react'
 import './Ppt.css'
 function Ppt() {
   return (
-    <div className="relative ">
+    <div id='ppt' className=" relative ">
       <div className="text-black">
         <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative  ">
           {/* Background Image */}

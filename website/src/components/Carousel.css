@@ -75,11 +75,12 @@ html, body {
   font-size: 75%;
   text-align: center;
   /* border: 1px solid blue; */
-  overflow-y: scroll;
+  /* overflow-x:hidden;
+  overflow-y: hidden; */
   padding: 2px;
   margin-left: 5px;
-  overflow-x: hidden;
-  white-space: wrap;
+ 
+
   /* border: 1px solid red; */
 }
 

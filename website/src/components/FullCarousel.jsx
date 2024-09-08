@@ -3,7 +3,7 @@ import PostCarousel from './PostCarousel.jsx';
 
 function FullCarousel() {
   return (
-    <div className="relative">
+    <div id='carousels' className="relative">
       <div className="text-white">
         <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative  ">
           {/* Background Image */}

@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function Experience() {
   return (
-    <div className="w-full ">
+    <div id="contact" className="w-full ">
       <div className="text-white">
         <section className="mx-5 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
           <div className="relative">
