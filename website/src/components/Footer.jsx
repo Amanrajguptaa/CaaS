@@ -16,8 +16,8 @@ function Footer() {
                 <div className="flex space-x-10">
                   <div className='flex gap-5 sm:gap-20 px-10'>
                     <div>
-                      <h4 className="font-bold text-lg">Heading</h4>
-                      <ul className="mt-2 text-xs space-y-1">
+                      <h4 className="font-bold text-sm">Heading</h4>
+                      <ul className="mt-2 text-[8px] space-y-1">
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
@@ -27,8 +27,8 @@ function Footer() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-bold text-lg">Heading</h4>
-                      <ul className="mt-2 text-xs space-y-1">
+                      <h4 className="font-bold text-sm">Heading</h4>
+                      <ul className="mt-2 text-[8px] space-y-1">
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
@@ -36,8 +36,8 @@ function Footer() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-bold text-lg">Heading</h4>
-                      <ul className="mt-2 text-xs space-y-1">
+                      <h4 className="font-bold text-sm">Heading</h4>
+                      <ul className="mt-2 text-[8px] space-y-1">
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
