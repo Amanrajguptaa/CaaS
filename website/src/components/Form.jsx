@@ -22,16 +22,16 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex  md:w-1/2">
+    <div className="flex h-auto md:w-1/2">
       <form 
-        className="bg-[#a7ff00] w-full max-w-lg  p-4 md:p-8 rounded-lg shadow-md"
+        className="bg-[#a7ff00] w-full p-1 md:p-8 rounded-lg shadow-md"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-sm md:text-2xl font-bold mb-4 md:mb-6 text-center">Contact Form</h2>
+        <h2 className="text-[12px] md:text-2xl font-bold mb-2 md:mb-6 text-center">Contact Form</h2>
 
         {/* Name Input */}
-        <div className="mb-3">
-          <label className="block text-xs text-gray-700 font-semibold mb-2" htmlFor="name">
+        <div className="mb-1 sm:mb-3">
+          <label className="block text-[12px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="name">
             Name
           </label>
           <input
@@ -40,15 +40,15 @@ const ContactForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full text-[10px] md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            className="w-full text-[8px] md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
             placeholder="Enter your name"
             required
           />
         </div>
 
         {/* Email Input */}
-        <div className="mb-3">
-          <label className="block text-xs text-gray-700 font-semibold mb-2" htmlFor="email">
+        <div className="mb-1 sm:mb-3">
+          <label className="block text-[12px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="email">
             Email
           </label>
           <input
@@ -57,15 +57,15 @@ const ContactForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full text-[10px]  md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            className="w-full text-[8px]  md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
             placeholder="Enter your email"
             required
           />
         </div>
 
         {/* Phone Input */}
-        <div className="mb-3">
-          <label className="block text-xs text-gray-700 font-semibold mb-2" htmlFor="phone">
+        <div className="mb-1 sm:mb-3">
+          <label className="block text-[9px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="phone">
             Phone Number
           </label>
           <input
@@ -74,7 +74,7 @@ const ContactForm = () => {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full text-[10px]  md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            className="w-full text-[8px]  md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
             placeholder="Enter your phone number"
             required
           />

@@ -6,7 +6,7 @@ function Creativity() {
   return (
     <div className="min-h-[500px] -mt-16 md:-mt-80">
       <div className="text-white h-auto">
-        <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative">
+        <section className="mx-3 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className=" relative">
             <img
               className="min-h-[600px] border rounded-[30px] md:rounded-[50px] border-none w-full"
@@ -17,7 +17,7 @@ function Creativity() {
 
           <div className="absolute inset-0 flex flex-col justify-start md:justify-start items-center ">
             <div className="w-full bg-[#a7ff00] rounded-xl md:rounded-2xl py-5  md:py-10 text-center flex flex-col">
-              <div className="font-brasika text-black text-[26px] sm:text-[46px] md:text-7xl">
+              <div className="font-brasika text-black text-[22px] sm:text-[46px] md:text-7xl">
                 do not believe what they say,
               </div>
               <div className="font-brasika text-[28px] sm:text-[46px] md:text-8xl -mt-3 sm:-mt-5 md:-mt-3">
@@ -25,7 +25,7 @@ function Creativity() {
               </div>
             </div>
 
-            <div className="flex mt-10 md:mt-16 border-[2px] border-white rounded-[30px] md:rounded-[50px] px-4 md:px-[80px] py-1 gap-[10px] md:gap-[20px]">
+            <div className="flex mt-10 md:mt-16 border-[2px] border-white rounded-[30px] md:rounded-[50px] px-2 md:px-[80px] py-1 gap-[4px] md:gap-[20px]">
               {/* {Array(6).fill(1).map((_, i) => (
                 <div key={i} className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
                 </div>
@@ -69,11 +69,11 @@ function Creativity() {
               </a>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center mt-20 md:mt-32">
-              <div className="font-brasika text-4xl sm:text-6xl md:text-8xl">
+            <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-32">
+              <div className="font-brasika text-3xl sm:text-6xl md:text-8xl">
                 we create anything
               </div>
-              <div className="font-brasika text-4xl sm:text-6xl md:text-8xl">
+              <div className="font-brasika text-3xl sm:text-6xl md:text-8xl pb-3 sm:pb-0">
                 that is not
               </div>
               <div className="flex justify-center items-center">

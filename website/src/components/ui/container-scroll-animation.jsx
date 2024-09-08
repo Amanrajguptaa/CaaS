@@ -96,7 +96,6 @@ export const Card = ({
           src={videoSrc}
           className="h-full w-full object-cover rounded-2xl" // Ensures the video covers the full area
           autoPlay
-        
           loop
           playsInline
         />

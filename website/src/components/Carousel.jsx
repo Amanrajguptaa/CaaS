@@ -5,7 +5,7 @@ function Carousel() {
   return (
     <div className="relative">
       <div className="text-[2px] sm:text-[5px] md:text-[10px]">
-        <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative  ">
+        <section className="mx-3 md:mx-10 h-auto bg-[#0038c7] relative  ">
           {/* Background Image */}
           <div className="relative overflow-hidden">
             <img className="" src="/gridd.png" alt="" />

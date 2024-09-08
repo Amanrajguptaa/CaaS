@@ -6,10 +6,10 @@ function HeroSection() {
 
     <div id="home" className="text-white w-screen py-5 z-20">
 
-      <section className="mx-5 md:mx-10 pb-52 md:pb-0 rounded-t-[30px] md:rounded-[50px] bg-[#0038c7] relative">
+      <section className="mx-3 md:mx-10 pb-52 md:pb-0 rounded-t-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-96">
         <div className="relative">
           <img
-            className="rounded-[30px] md:rounded-[50px] border-none w-full"
+            className="min-h-96 rounded-[30px] md:rounded-[50px] border-none w-full"
             src="/gridd.png"
             alt="background"
           />
@@ -19,7 +19,7 @@ function HeroSection() {
         <Navbar className="w-full"/>
 
           <div className="flex flex-col justify-center items-center">
-            <div className="text-[70px] sm:text-[120px] md:text-[120px] lg:text-[170px] font-brasika">
+            <div className="text-[60px] sm:text-[120px] md:text-[120px] lg:text-[170px] font-brasika">
               creativity
             </div>
             <div className="text-[40px] sm:text-[80px] md:text-[70px] lg:text-[105px] -mt-9 sm:-mt-16 md:-mt-10 lg:-mt-24 font-brasika">

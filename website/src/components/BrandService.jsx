@@ -4,15 +4,15 @@ function BrandService() {
   return (
     <div className="w-full z-10">
       <div className="min-h-[400px] -mt-8 md:-mt-24 text-white">
-        <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative">
+        <section className="mx-3 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className="relative">
             <img className="min-h-[400px]" src="/gridd.png" alt="" />
           </div>
 
           <div className="absolute inset-0 top-16 md:top-12 flex flex-col justify-center items-center  mt-0 md:mt-40">
             <div className="flex flex-col justify-center items-center">
-              <div className="transform rotate-[5deg]">
-                <div className="font-brasika text-2xl sm:text-4xl md:text-7xl z-50 ml-10 md:ml-12">
+              <div className="transform rotate-[10deg] sm:rotate-[5deg]">
+                <div className="font-brasika text-xl sm:text-4xl md:text-7xl z-50 ml-7 md:ml-12">
                   brands that got
                 </div>
                 <div className="relative bg-[#a7ff00] text-black py-3 md:py-5 flex items-center justify-center border-[2px] border-black w-screen -z-10">
@@ -32,8 +32,8 @@ function BrandService() {
                 </div>
               </div>
 
-              <div className="transform -rotate-[12deg] -mt-16 md:-mt-24 z-0">
-                <div className="flex  justify-end font-brasika text-xs sm:text-2xl md:text-4xl z-10 mr-8 md:mr-24">
+              <div className="transform -rotate-[18deg] sm:-rotate-[12deg] -mt-16 md:-mt-24 z-0">
+                <div className="flex  justify-end font-brasika text-[11px] sm:text-2xl md:text-4xl z-10 mr-5 md:mr-24">
                   creativity as a service
                 </div>
                 <div className="relative bg-[#a7ff00] text-black py-3 md:py-5 flex items-center justify-center border-[2px] border-black w-screen -z-10">
@@ -58,8 +58,8 @@ function BrandService() {
             </div>
 
             <div className="flex flex-col justify-center items-center mt-2 md:mt-10">
-              <div className="font-brasika text-4xl md:text-8xl text-center">this is what they</div>
-              <div className="font-brasika text-4xl md:text-8xl text-center">
+              <div className="font-brasika text-3xl md:text-8xl text-center">this is what they</div>
+              <div className="font-brasika text-3xl md:text-8xl text-center">
                 wanna say <span className="text-[#a7ff00]">out loud</span>
               </div>
             </div>

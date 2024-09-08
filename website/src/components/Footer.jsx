@@ -12,7 +12,7 @@ function Footer() {
     //       <div className="absolute inset-x-0 bottom-0">
             <footer className="bg-white shadow-md p-6 rounded-t-lg w-full mt-20 sm:mt-0">
               <div className="container mx-auto flex justify-between items-start">
-                <img src="/webLogo.png" alt="" srcset="" />
+                <img className="" src="/webLogo.png" alt="" srcset="" />
                 <div className="flex space-x-10">
                   <div className='flex gap-5 sm:gap-20 px-10'>
                     <div>
@@ -35,7 +35,7 @@ function Footer() {
                         <li>Sub-Heading</li>
                       </ul>
                     </div>
-                    <div>
+                    {/* <div className='hidden'>
                       <h4 className="font-bold text-sm">Heading</h4>
                       <ul className="mt-2 text-[8px] space-y-1">
                         <li>Sub-Heading</li>
@@ -43,7 +43,7 @@ function Footer() {
                         <li>Sub-Heading</li>
                         <li>Sub-Heading</li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
