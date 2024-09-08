@@ -4,7 +4,7 @@ import TypingWords from "./TypingWords.jsx";
 function Creativity() {
   const words = ["illegal", "違法", "अवैध", "غير قانوني"];
   return (
-    <div className="min-h-[500px] -mt-16 md:-mt-48">
+    <div className="min-h-[500px] -mt-16 md:-mt-80">
       <div className="text-white h-auto">
         <section className="mx-5 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className=" relative">
@@ -32,39 +32,39 @@ function Creativity() {
               ))} */}
               <a href="#posts">
               <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
-              <img className='h-1/2 md:h-auto' src={`/Icon0.png`} alt="" />
+              <img className='h-1/2 md:h-1/2' src={`/Icon0.png`} alt="" />
               </span>
               </a>
 
               <a href="#carousels">
               <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
-              <img className='h-1/2 md:h-auto' src={`/Icon1.png`} alt="" />
+              <img className='h-1/2 md:h-1/2' src={`/Icon1.png`} alt="" />
               </span>
               </a>
 
               <a href="#reels">
               <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
-              <img className='h-1/2 md:h-auto' src={`/Icon2.png`} alt="" />
+              <img className='h-1/2 md:h-1/2' src={`/Icon2.png`} alt="" />
               </span>
               </a>
 
               <a href="#home">
               <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
-              <img className='h-1/2 md:h-auto' src={`/Icon3.png`} alt="" />
+              <img className='h-1/2 md:h-1/2' src={`/Icon3.png`} alt="" />
               </span>
               </a>
 
 
               <a href="#ppt">
               <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
-              <img className='h-1/2 md:h-auto' src={`/Icon4.png`} alt="" />
+              <img className='h-1/2 md:h-1/2' src={`/Icon4.png`} alt="" />
               </span>
               </a>
 
 
               <a href="#contact">
               <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
-              <img className='h-1/2 md:h-auto' src={`/Icon5.png`} alt="" />
+              <img className='h-1/2 md:h-1/2' src={`/Icon5.png`} alt="" />
               </span>
               </a>
             </div>

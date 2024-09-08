@@ -66,11 +66,10 @@ function Ppt() {
 </div>
 
 <div class="tag text-sm md:text-auto">
-<div className='text-lg md:text-4xl mr-5 md:mr-32'>PPTs</div>
-<div className='text-lg md:text-4xl mr-5 md:mr-32'>PPTs</div>
-<div className='text-lg md:text-4xl mr-5 md:mr-32'>PPTs</div>
-<div className='text-lg md:text-4xl mr-5 md:mr-32'>PPTs</div>
-<div className='text-lg md:text-4xl mr-5 md:mr-32'>PPTs</div>
+<div className='text-lg md:text-6xl mr-5 md:mr-32'>PPTs</div>
+<div className='text-lg md:text-6xl mr-5 md:mr-32'>PPTs</div>
+<div className='text-lg md:text-6xl mr-5 md:mr-32'>PPTs</div>
+<div className='text-lg md:text-6xl mr-5 md:mr-32'>PPTs</div>
 
 
 </div>

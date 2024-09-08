@@ -30,7 +30,7 @@ function Carousel() {
                         width="22.5px"
                       />
                     </span>
-                    <span class="tag">Rohan S</span>
+                    <span class="tag">Coffea</span>
                   </div>
                 </div>
 
@@ -70,7 +70,7 @@ function Carousel() {
                         width="17.5px"
                       />
                     </span>
-                    <span class="tag">Sara M</span>
+                    <span class="tag">Travel Today</span>
                   </div>
                 </div>
 
@@ -110,7 +110,7 @@ function Carousel() {
                         width="17.5px"
                       />
                     </span>
-                    <span class="tag">Anjali R</span>
+                    <span class="tag">Smile Hospital</span>
                   </div>
                 </div>
               </div>
@@ -152,7 +152,7 @@ function Carousel() {
                         width="17.5px"
                       />
                     </span>
-                    <span class="tag">Neha G</span>
+                    <span class="tag">Rana Hospital</span>
                   </div>
                 </div>
 
@@ -192,7 +192,7 @@ function Carousel() {
                         width="17.5px"
                       />
                     </span>
-                    <span class="tag">Meera V</span>
+                    <span class="tag">Blacksoft Solution</span>
                   </div>
                 </div>
 

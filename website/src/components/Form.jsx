@@ -22,9 +22,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex  md:w-2/5">
+    <div className="flex  md:w-1/2">
       <form 
-        className="w-full max-w-lg bg-white p-4 md:p-8 rounded-lg shadow-md"
+        className="bg-[#a7ff00] w-full max-w-lg  p-4 md:p-8 rounded-lg shadow-md"
         onSubmit={handleSubmit}
       >
         <h2 className="text-sm md:text-2xl font-bold mb-4 md:mb-6 text-center">Contact Form</h2>

@@ -10,11 +10,11 @@ function StackCards() {
 
           <div className="absolute inset-0 flex flex-col justify-center items-center ">
             <CardStack/>
-            <div className="absolute top-[20%] md:top-[40%]  bg-lime-500 text-black py-5 rotate-6  flex items-center justify-center border-[2px] border-black w-screen ">
+            <div className="absolute top-[20%] md:top-[40%]  bg-[#a7ff00] text-black py-5 rotate-6  flex items-center justify-center border-[2px] border-black w-screen ">
               <span className="text-black font-brasika text-sm sm:text-2xl md:text-6xl mr-32 md:mr-20 ">Social Media Posts</span> <span className="text-black font-brasika text-sm sm:text-2xl md:text-6xl ">Social Media Posts</span> 
             </div>
 
-            <div className=" mt-52 sm:mt-20 px-12 py-2 border-[2px] border-lime-500 rounded-3xl bg-white text-black ">Check’em All</div>
+            <button className=" mt-52 sm:mt-20 px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">Check’em All</button>
           </div>
         </section>
       </div>

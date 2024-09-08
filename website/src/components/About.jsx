@@ -22,8 +22,8 @@ function About() {
             <div className="relative ml-32 mt-5">
                 <div className="bg-lime-500 rounded-xl border-[2px] border-black h-32 w-52 sm:h-40 sm:w-80 absolute top-20 -left-32 sm:-left-52 -z-1 text-[22px] sm:text-4xl p-2 sm:p-5">we are the providers <br/>of <span className="text-white">CaaS</span></div>
                 <div className="relative z-40"><img className=" w-2/3  sm:w-5/6" src="/statue2.png" alt="" /></div>
-                <div className="absolute top-36 left-[75px] sm:top-60 sm:left-40 bg-lime-500 rounded-xl border-[2px] border-black h-28 w-48 sm:h-32 sm:w-60 text-md sm:text-xl pl-20 sm:pl-24 text-end p-2">we build your <span className="text-white">social media presence</span></div>
-                <div className="absolute bg-lime-500 rounded-xl border-[2px] border-black h-32 w-40 sm:h-36 sm:w-52 top-[240px] sm:top-[400px] -left-32 sm:-left-40 text-xl sm:text-2xl p-2">that too at <br /> a <span className="text-white">non- <br />competitive <br /> price</span></div>
+                <div className="absolute top-36 left-[75px] sm:top-60 sm:left-40 bg-lime-500 rounded-xl border-[2px] border-black h-28 w-48 sm:h-32 sm:w-60 text-md sm:text-xl pl-20 sm:pl-20 text-end p-2 flex flex-col justify-center items-center">we build your <span className="text-white">social media presence</span></div>
+                <div className="absolute bg-lime-500 rounded-xl border-[2px] border-black h-32 w-40 sm:h-40 sm:w-60 top-[240px] sm:top-[360px] -left-32 sm:-left-48 text-xl sm:text-2xl p-2 flex flex-col justify-center ">that too at <span className="text-white">a non- <br /> competitive  price</span></div>
             </div>
             <Footer/>
           </div>

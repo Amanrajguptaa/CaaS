@@ -15,18 +15,18 @@ function BrandService() {
                 <div className="font-brasika text-2xl sm:text-4xl md:text-7xl z-50 ml-10 md:ml-12">
                   brands that got
                 </div>
-                <div className="relative bg-lime-500 text-black py-3 md:py-5 flex items-center justify-center border-[2px] border-black w-screen -z-10">
+                <div className="relative bg-[#a7ff00] text-black py-3 md:py-5 flex items-center justify-center border-[2px] border-black w-screen -z-10">
                   <marquee >
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo1.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo2.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo3.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo4.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo5.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo6.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo7.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo8.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo9.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo10.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo1.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo2.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo3.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo4.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo5.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo6.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo7.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo8.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo9.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo10.png" alt="" />
 
                   </marquee>
                 </div>
@@ -36,18 +36,18 @@ function BrandService() {
                 <div className="flex  justify-end font-brasika text-xs sm:text-2xl md:text-4xl z-10 mr-8 md:mr-24">
                   creativity as a service
                 </div>
-                <div className="relative bg-lime-500 text-black py-3 md:py-5 flex items-center justify-center border-[2px] border-black w-screen -z-10">
-                  <marquee >
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo1.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo2.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo3.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo4.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo5.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo6.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo7.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo8.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo9.png" alt="" />
-                    <img className="inline-block h-[30px] w-[100px]  md:h-[50px] md:w-[100px] mr-28" src="/logo10.png" alt="" />
+                <div className="relative bg-[#a7ff00] text-black py-3 md:py-5 flex items-center justify-center border-[2px] border-black w-screen -z-10">
+                <marquee >
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo1.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo2.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo3.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo4.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo5.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo6.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo7.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo8.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo9.png" alt="" />
+                    <img className="inline-block h-[30px] w-[100px]  md:h- md:w-[100px] mr-28" src="/logo10.png" alt="" />
 
                   </marquee>
                 </div>
